@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>todos</title>
+</head>
+<body>
+  <h1>Hello World!</h1>
+  <p><%= @time %></p>
+  <ul>
+    <% @todos.each do |todo| %>
+    <li><%= todo %></li>
+    <% end %>
+  </ul>
+</body>
+</html>

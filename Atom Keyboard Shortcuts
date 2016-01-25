@@ -1,0 +1,4 @@
+Keyboard Shortcuts for Atom
+
+command + shift + p => pull up menu like spotlight search
+command + t => does a fuzzy search for all files open in sidebar 

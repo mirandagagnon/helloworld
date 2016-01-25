@@ -1,0 +1,101 @@
+html{
+	box-sizing:border-box;
+	font-size: 100%;
+	background-color: #ffffff;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+
+}
+.page-wrapper{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#header{
+	position: fixed;
+	background-color: rgba(0,0,0,0.1);
+	top:0;
+	left:0;
+	right:0;
+}
+
+#header h2{
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Roboto Condensed', cursive;
+	color: #545353;
+}
+
+#img{
+	width: 30%;
+	padding-top: 9%;
+	float: left;
+}
+
+#main{
+	padding-left: 45%;
+	padding-top: 9%;
+}
+
+#aboutMe{
+	font-family: 'Hind', cursive;
+	color: black;
+	font-size: 1.5rem;
+}
+
+#desc{
+	font-family: 'Hind', cursive;
+	color: #545353;
+	font-size: 1rem;
+
+}
+
+#interests{
+	font-family: 'Hind', cursive;
+	color: #545353;
+	font-size: 1rem;
+
+}
+#main ul{
+	list-style: none;
+	font-size: 1rem;
+}
+
+#main li{
+	font-family: 'Hind', cursive;
+	color: #545353; 
+}
+
+#footer{
+	margin-top: 65px;
+	position: absolute;
+	left:0;
+	right: 0; 
+	background-color: #545353; 
+}
+
+#footer a{
+	text-decoration: none;
+	font-family: 'Hind', cursive;
+	color: #ffffff;
+	font-size: 1rem;
+	padding-left: 5%;
+	position: absolute;
+	padding-top: 10px;
+}
+
+#footer a:hover{
+	color: black;
+}
+
+.copyright{
+	float: right;
+	font-size: 0.4rem;
+	font-family: 'Hind', cursive;
+	color: #cccccc;
+	padding-right: 1rem;
+	padding-top: 20px;
+
+}
+
